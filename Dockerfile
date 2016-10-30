@@ -1,4 +1,4 @@
-FROM influxdb:0.13
+FROM influxdb:1.0.2
 MAINTAINER nikodc (https://github.com/nikodc)
 
 COPY influxdb.conf /etc/influxdb/influxdb.conf
